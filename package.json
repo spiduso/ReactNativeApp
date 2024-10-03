@@ -8,12 +8,10 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "windows": "react-native run-windows",
-    "postinstall": "node ./bin/postInstall && node react-native-map-web-fix.js "
+    "windows": "react-native run-windows"
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.2.3",
-    "@teovilla/react-native-web-maps": "^0.9.5",
     "expo": "^51.0.36",
     "react": "18.3.1",
     "react-dom": "18.2.0",
